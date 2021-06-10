@@ -1,0 +1,42 @@
+---
+title:   "$B^+\\rightarrow D_s^+\\bar{D}^0$   |   $B^+\\rightarrow D^{(*)+}\\bar{D}^0$"
+layout:  splash
+header:
+  overlay_filter: rgba(0,0,0,0.7)
+  overlay_image: /assets/images/banner.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "CP asymmetry measurement of charmed B meson decays using the LHCb detector."
+intro:
+  - excerpt: 'The $CP$ asymmetry of $B^+\rightarrow D^{(\*)+}\bar{D}^0$ and $B^+\rightarrow D\_s^+\bar{D}^0$ decays was measured in two datasets. The first corresponds to an integrated luminosity of 3.0 fb$^{-1}$ collected during LHC Run I with the LHCb detector, while the second contains 6.0 fb$^{-1}$ in Run II. The datsets were combined to obtain:
+  <br>
+  $\mathcal{A}^\mathrm{CP}(B^+\rightarrow D^{+}\bar{D}^0) = (0.7 \pm 1.0 \pm 0.4)\%$, $\mathcal{A}^\mathrm{CP}(B^+\rightarrow D\_s^+\bar{D}^0) = (-2.6 \pm 0.2 \pm 0.5)\%$,
+  $\mathcal{A}^\mathrm{CP}(B^+\rightarrow D^{\*+}\bar{D}^0) = (1.6 \pm 1.5 \pm 0.4)\%$,
+  <br>
+  where the uncertainties are statistical and systematic. It was observed that the $D^+_s$ mode shows hints of $CP$ violation within the Standard Model limits.'
+feature_row:
+    - image_path: /assets/images/histos.jpg
+      alt: "Preliminary Histograms"
+      title: "Preliminary Histograms"
+      url: "histos/"
+      excerpt: "Histograms used to determine which variables are better at disciminating between S&N."
+      btn_label: "Read More"
+      btn_class: "btn--info"
+    - image_path: /assets/images/ml.jpg
+      alt: "ML Training"
+      title: "ML Training"
+      url: "MLtrain/"
+      excerpt: "A BDT was trained on the data to remove as much of the background as possible."
+      btn_label: "Read More"
+      btn_class: "btn--info"
+    - image_path: /assets/images/fits.jpg
+      alt: "Fitting the Spectrum"
+      title: "Fitting the Spectrum"
+      excerpt: "The spectrum was fitted to determine where to cut on the BDT output."
+      url: "fitting/"
+      btn_label: "Read More"
+      btn_class: "btn--info"
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
