@@ -1,38 +1,28 @@
 ---
-title:   "$B^+\\rightarrow D_s^+\\bar{D}^0$   |   $B^+\\rightarrow D^{(*)+}\\bar{D}^0$"
+title:   "QML Applications to HEP Data Analysis"
 layout:  splash
 header:
-  overlay_filter: rgba(0,0,0,0.7)
+  overlay_filter: rgba(0,255,255,0.15)
   overlay_image: /assets/images/banner.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "CP asymmetry measurement of charmed B meson decays using the LHCb detector."
+excerpt: "Classification of the top mass measurement channel $t\\bar{t}H(b\\bar{b})$ versus the dominant $t\\bar{t}b\\bar{b}$ background."
+
 intro:
-  - excerpt: 'The $CP$ asymmetry of $B^+\rightarrow D^{(\*)+}\bar{D}^0$ and $B^+\rightarrow D\_s^+\bar{D}^0$ decays was measured in two datasets. The first corresponds to an integrated luminosity of 3.0 fb$^{-1}$ collected during LHC Run I with the LHCb detector, while the second contains 6.0 fb$^{-1}$ in Run II. The datsets were combined to obtain:
-  <br>
-  $\mathcal{A}^\mathrm{CP}(B^+\rightarrow D^{+}\bar{D}^0) = (0.7 \pm 1.0 \pm 0.4)\%$, $\mathcal{A}^\mathrm{CP}(B^+\rightarrow D\_s^+\bar{D}^0) = (-2.6 \pm 0.2 \pm 0.5)\%$,
-  $\mathcal{A}^\mathrm{CP}(B^+\rightarrow D^{\*+}\bar{D}^0) = (1.6 \pm 1.5 \pm 0.4)\%$,
-  <br>
-  where the uncertainties are statistical and systematic. It was observed that the $D^+_s$ mode shows hints of $CP$ violation within the Standard Model limits.'
+  - excerpt: 'Quantum Machine Learning methods are applied to the $t\\bar{t}H(b\\bar{b})$ classification task. The main background of this process, $t\\bar{t}b\\bar{b}$ is highly similar to the signal; thus, the classification and segregation of signal from background is hard. Nevertheless, a better classification can lead to a more precise and accurate determination of the top quark Yukawa coupling, which motivates alternative approaches such as the one investigated in this study. Moreover, the already existing abundance of classical results and sheer difficulty of this classification problem also enable the testing and comparison of classical and quantum methods, with the possibility of another empirical proof for quantum supremacy.'
+
 feature_row:
-    - image_path: /assets/images/histos.jpg
-      alt: "Preliminary Histograms"
-      title: "Preliminary Histograms"
-      url: "histos/"
-      excerpt: "Histograms used to determine which variables are better at disciminating between S&N."
+    - image_path: /assets/images/norm.png
+      alt: "Data Normalization"
+      title: "Data Normalization"
+      url: "norm/"
+      excerpt: "Determination of which normalization is optimal for the simulated data (67 features)."
       btn_label: "Read More"
       btn_class: "btn--info"
-    - image_path: /assets/images/ml.jpg
-      alt: "ML Training"
-      title: "ML Training"
-      url: "MLtrain/"
-      excerpt: "A BDT was trained on the data to remove as much of the background as possible."
-      btn_label: "Read More"
-      btn_class: "btn--info"
-    - image_path: /assets/images/fits.jpg
-      alt: "Fitting the Spectrum"
-      title: "Fitting the Spectrum"
-      excerpt: "The spectrum was fitted to determine where to cut on the BDT output."
-      url: "fitting/"
+    - image_path: /assets/images/ae.png
+      alt: "Auto-Encoder"
+      title: "Hybrid Autoencoder"
+      url: "hybridae/"
+      excerpt: "A hybrid autoencoder was used to reduce the number of features for NISQ devices."
       btn_label: "Read More"
       btn_class: "btn--info"
 ---

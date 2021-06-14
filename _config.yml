@@ -1,21 +1,21 @@
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "air"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "B2DD"
+title                    : "QML"
 title_separator          : "|"
-subtitle                 : "Analysis of asymmetry in B2DD decays at LHCb."
+subtitle                 : "QML applied to HEP data analysis."
 name                     : "Patrick Odagiu"
-description              : "TP4b project concerning the CP asymmetry in B2DD decays."
+description              : "Data and figures related to QML research at CERN Openlab."
 url                      : "https://qml-hep.github.io"
-baseurl                  : "/qml_hep"
-repository               : "QML-HEP/qml_hep"
+baseurl                  : "/qml_web"
+repository               : "QML-HEP/qml_web"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png"
-masthead_title           : "B2DD"
-# breadcrumbs            : false # true, false (default)
+masthead_title           : "QML &#8652; HEP"
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 150
 markdown                 : kramdown
 
@@ -35,9 +35,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bb511"
-    - label: "EPFL"
-      icon: "fas fa-fw fa-university"
-      url: "https://people.epfl.ch/denis-patrick.odagiu"
 
 # Reading Files
 include:
