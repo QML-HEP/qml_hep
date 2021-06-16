@@ -143,5 +143,4 @@ gallery:
     image_path: /assets/images/norm/quantile/MET $p_y$-1.png
 ---
 
-## Quantile Normalization Applied
 {% include gallery %}

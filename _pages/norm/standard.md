@@ -143,5 +143,4 @@ gallery:
     image_path: /assets/images/norm/standard/MET $p_y$-1.png
 ---
 
-## Standard Normalization Applied
 {% include gallery %}

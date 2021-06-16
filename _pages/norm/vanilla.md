@@ -1,6 +1,6 @@
 ---
 permalink: /norm/vanilla/
-title:   "Vanilla Data"
+title:   "Vanilla Data - No Norm Applied"
 layout:  splash
 header:
   overlay_filter: rgba(0,170,255,0.3)
@@ -143,5 +143,4 @@ gallery:
     image_path: /assets/images/norm/vanilla/MET $p_y$-1.png
 ---
 
-## No Normalization Applied
 {% include gallery %}

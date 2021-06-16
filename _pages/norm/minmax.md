@@ -143,5 +143,4 @@ gallery:
     image_path: /assets/images/norm/minmax/MET $p_y$-1.png
 ---
 
-## Minmax Normalization Applied
 {% include gallery %}

@@ -143,5 +143,4 @@ gallery:
     image_path: /assets/images/norm/optimal/MET $p_y$-1.png
 ---
 
-## Optimal Normalization Applied
 {% include gallery %}

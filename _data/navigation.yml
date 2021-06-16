@@ -40,3 +40,41 @@ norms:
         url: /norm/power/
       - title: "Optimal"
         url: /norm/optimal/
+
+  - title: "Normalizations (ROC Curves)"
+    url: /norm_roc/
+    children:
+      - title: "Vanilla"
+        url: /norm_roc/vanilla/
+      - title: "Standard"
+        url: /norm_roc/standard/
+      - title: "MinMax"
+        url: /norm_roc/minmax/
+      - title: "MaxAbs"
+        url: /norm_roc/maxabs/
+      - title: "Robust"
+        url: /norm_roc/robust/
+      - title: "Quantile"
+        url: /norm_roc/quantile/
+      - title: "Power"
+        url: /norm_roc/power/
+      - title: "Optimal"
+        url: /norm_roc/optimal/
+
+  - title: "Latent Space ROC Curves"
+    url: /latent_roc/
+    children:
+      - title: "Standard"
+        url: /latent_roc/standard/
+      - title: "MinMax"
+        url: /latent_roc/minmax/
+      - title: "MaxAbs"
+        url: /latent_roc/maxabs/
+      - title: "Robust"
+        url: /latent_roc/robust/
+      - title: "Quantile"
+        url: /latent_roc/quantile/
+      - title: "Power"
+        url: /latent_roc/power/
+      - title: "Optimal"
+        url: /latent_roc/optimal/

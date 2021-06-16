@@ -143,5 +143,4 @@ gallery:
     image_path: /assets/images/norm/robust/MET $p_y$-1.png
 ---
 
-## Robust Normalization Applied
 {% include gallery %}

@@ -143,5 +143,4 @@ gallery:
     image_path: /assets/images/norm/power/MET $p_y$-1.png
 ---
 
-## No Normalization Applied
 {% include gallery %}
