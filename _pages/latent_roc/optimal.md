@@ -41,5 +41,5 @@ gallery:
     image_path: /assets/images/latent_roc/optimal/Latent feature 15.png
 ---
 
-## Total AUC: TBA
+## Total AUC: 7.915
 {% include gallery %}
