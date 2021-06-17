@@ -97,6 +97,9 @@
 <loc>http://localhost:4000/qml_web/norm_roc/quantile/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/qml_web/references/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/qml_web/latent_roc/robust/</loc>
 </url>
 <url>

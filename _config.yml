@@ -7,7 +7,7 @@ locale                   : "en-US"
 title                    : "QML"
 title_separator          : "|"
 subtitle                 : "QML applied to HEP data analysis."
-name                     : "Patrick Odagiu"
+name                     : "Patrick Odagiu and Vasilis Belis"
 description              : "Data and figures related to QML research at CERN Openlab."
 url                      : "https://qml-hep.github.io"
 baseurl                  : "/qml_web"
@@ -34,7 +34,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/bb511"
+      url: "https://github.com/qml-hep"
 
 # Reading Files
 include:

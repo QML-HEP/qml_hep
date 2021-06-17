@@ -8,8 +8,11 @@ main:
       url: /data/
     - title: "Downloads"
       url: /downloads/
+    - title: "References"
+      url: /references/
     - title: "About"
       url: /about/
+
 
 autoencoder:
   - title: "Autoencoder Architectures"
